@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kurale", serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more a {
+  color: white;
+  padding: 5px 20px;
+  background-color: #0282f9;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+header .header-top {
+  background-color: #0282f9;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+header .header-top .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .header-top .container div {
+  padding: 15px;
+  padding-left: 20px;
+}
+header .header-nav {
+  padding: 15px 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-nav img {
+  height: 100%;
+}
+header .header-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-nav ul li {
+  list-style-type: none;
+}
+header .header-nav ul li a {
+  display: inline-block;
+  line-height: 100px;
+  padding: 0 15px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+header .header-nav ul li a:hover:after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background-color: #0282f9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #0282f9;
+}
+header .header-nav ul li a:hover {
+  color: #0282f9;
+  border-bottom: 1px solid #0282f9;
+}
+header .header-nav .fas {
+  color: #0282f9;
+}
+header .header-nav .search {
+  border-bottom: 2px solid #0282f9;
+}
+header .header-nav .search input {
+  border: none;
+  padding: 5px;
+  text-align: right;
+}
+header .header-nav .search input:focus-visible {
+  outline: none;
+}
+header .header-jumbotron {
+  height: 600px;
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer .about {
+  height: 600px;
+  color: white;
+  display: flex;
+}
+footer .about .links-about {
+  float: left;
+  margin: 20px;
+}
+footer .about .links-about h3 {
+  margin: 10px 0;
+}
+footer .about .links-about li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+footer .about .links-about a {
+  color: #5c5c5c;
+  font-weight: bold;
+}
+footer .about figure {
+  background-image: url("../images/dc-logo-bg.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+footer #footer-follow {
+  background-color: #2f2f2f;
+  color: white;
+}
+footer #footer-follow .social {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+footer #footer-follow .social .sign-up button {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  border-bottom-color: 2px solid #0282f9;
+  background-color: #2f2f2f;
+  color: white;
+}
+footer #footer-follow .follow ul {
+  margin-top: 20px;
+  color: #0282f9;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+footer #footer-follow .follow ul li a {
+  padding: 15px 10px;
+}
+footer #footer-follow .follow ul li {
+  list-style-type: none;
+  font-weight: bold;
+}
+footer #footer-follow .follow .fab {
+  font-size: 1.5rem;
+  color: #5c5c5c;
+  padding: 0 5px;
+}
+footer #footer-follow .follow .fas {
+  font-size: 1.5rem;
+  color: #5c5c5c;
+  padding: 0 5px;
+}
+
+#comics {
+  background-color: #2f2f2f;
+  color: white;
+}
+#comics .container {
+  position: relative;
+  top: -26px;
+}
+#comics h2 {
+  padding: 10px 15px;
+  background-color: #0282f9;
+  display: inline-block;
+}
+#comics .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 50px 0;
+}
+#comics .col {
+  width: 16.6666666667%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 250px;
+  color: white;
+}
+#comics .col h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#products {
+  background-color: #0282f9;
+  color: white;
+  height: 150px;
+}
+#products ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+#products ul li {
+  list-style-type: none;
+  font-weight: bold;
+  padding: 15px 10px;
+}
+#products ul li img {
+  width: 50px;
+  vertical-align: middle;
+  margin: 35px 0;
+}

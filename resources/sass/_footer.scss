@@ -1,0 +1,87 @@
+footer {
+    background-image: url("../images/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    .about {
+        height: 600px;
+        color: $white;
+        display: flex;
+
+        .links-about {
+            float: left;
+            margin: 20px;
+
+            h3 {
+                margin: 10px 0;
+            }
+
+            li {
+                list-style-type: none;
+                margin: 10px 0;
+            }
+
+            a {
+                color: $gray;
+                font-weight: bold;
+            }
+        }
+
+        figure {
+            background-image: url("../images/dc-logo-bg.png");
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    #footer-follow {
+        
+        background-color: rgb(47, 47, 47);
+        color: white;
+      
+        .social {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            .sign-up button {
+                margin-top: 20px;
+                padding: 10px;
+                margin-left: 20px;
+                border-bottom-color: 2px solid $main-color;
+                background-color: rgb(47, 47, 47);
+                color: white;
+              }
+        }
+        
+        .follow ul {
+            margin-top: 20px;
+            color: $main-color;
+            display: flex;
+            padding: 0;
+            justify-content: center;
+        }
+      
+        .follow ul li a {
+        padding: 15px 10px;
+        }
+      
+        .follow ul li {
+        list-style-type: none;
+        font-weight: bold;
+        }
+      
+        .follow .fab {
+        font-size: 1.5rem;
+        color: rgb(92, 92, 92);
+        padding: 0 5px;
+        }
+      
+        .follow .fas {
+        font-size: 1.5rem;
+        color: rgb(92, 92, 92);
+        padding: 0 5px;
+        }
+    }
+}

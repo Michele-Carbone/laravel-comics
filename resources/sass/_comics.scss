@@ -1,0 +1,63 @@
+#comics {
+    background-color: $dark-gray;
+    color: $white;
+    .container {
+        position: relative;
+        top: -26px;
+    }
+    h2 {
+        padding: 10px 15px;
+        background-color: $main-color;
+        display: inline-block;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        padding: 50px 0;
+    }
+
+    .col {
+        width: calc(100% / 6);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        min-height: 250px;
+        color: $white;
+
+        h3 {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+    }
+
+}
+
+#products{
+    background-color: $main-color;
+    color: white;
+    height: 150px;
+
+    ul{
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+
+        li{
+            list-style-type: none;
+            font-weight: bold;
+            padding: 15px 10px;
+
+            img{
+                width: 50px;
+                vertical-align: middle;
+                margin: 35px 0;
+            }
+        }
+    }
+}
+

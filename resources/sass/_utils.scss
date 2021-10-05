@@ -1,0 +1,23 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: $white;
+        padding: 5px 20px;
+        background-color: $main-color;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px;
+    }
+}
