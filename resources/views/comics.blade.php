@@ -23,6 +23,7 @@
             
         </div>
     </section>
+    {{--
     <!--products-->
     <section id="products">
         <div class="container">        
@@ -35,5 +36,6 @@
             </ul>
         </div>
     </section>
+    --}}
 @endsection
 

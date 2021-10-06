@@ -16,6 +16,7 @@
     <!--MAIN: CARD AND PRODUCTS -->
     <main>
         @yield('content')
+        @yield('products')
 
     </main>
 

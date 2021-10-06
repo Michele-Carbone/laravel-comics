@@ -37,27 +37,5 @@
 
 }
 
-#products{
-    background-color: $main-color;
-    color: white;
-    height: 150px;
 
-    ul{
-        display: flex;
-        padding: 0;
-        justify-content: space-between;
-
-        li{
-            list-style-type: none;
-            font-weight: bold;
-            padding: 15px 10px;
-
-            img{
-                width: 50px;
-                vertical-align: middle;
-                margin: 35px 0;
-            }
-        }
-    }
-}
 
