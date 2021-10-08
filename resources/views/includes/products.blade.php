@@ -1,11 +1,3 @@
-@extends('layouts.main')
-
-@section('title', 'TV SERIE')
-
-
-
-@section('products')
-    
     <!--products-->
     <section id="products">
         <div class="container">           
@@ -16,7 +8,6 @@
                 <li><img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">COMIC SHOP LOCATOR</li>
                 <li><img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">DC POWER VISA</li>
             </ul>
-        
+            
         </div>
     </section>
-@endsection

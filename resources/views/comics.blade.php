@@ -10,7 +10,7 @@
             <h2>Current series</h2>
             <div class="row">
                 @foreach($comics as $comic)
-                <a href="" class="col">
+                <a href="{{route('comic', $id = $loop->index)}}" class="col">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                     <h3>{{$comic['title']}}</h3>
                 </a >
@@ -23,19 +23,5 @@
             
         </div>
     </section>
-    {{--
-    <!--products-->
-    <section id="products">
-        <div class="container">        
-            <ul>
-                <li><img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">DIGITAL COMICS</li>
-                <li><img src="{{asset('images/buy-comics-merchandise.png')}}" alt="">DC MERCHANDISE</li>
-                <li><img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">SUBSCRIPTION</li>
-                <li><img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">COMIC SHOP LOCATOR</li>
-                <li><img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">DC POWER VISA</li>
-            </ul>
-        </div>
-    </section>
-    --}}
 @endsection
 

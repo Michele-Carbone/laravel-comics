@@ -16,12 +16,11 @@
     <!--MAIN: CARD AND PRODUCTS -->
     <main>
         @yield('content')
-        @yield('products')
-
+        
     </main>
-
+    @include('includes.products')
     
-    <!--FOOTER-->
-    @include('includes.footer')
+    <!--FOOTER (file contenuto all interno della cartella includes/main/ )-->
+    @include('includes.main.footer')
 </body>
 </html>
